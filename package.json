@@ -1,0 +1,13 @@
+{
+  "name": "geo-json-extractor",
+  "version": "1.0.0",
+  "description": "My package is a command-line tool that extracts features from a GeoJSON file into separate files. It takes a GeoJSON file path and two property names (for the folder name and file name) as input, and outputs separate GeoJSON files for each feature. This package is designed to make it easy to extract data from GeoJSON files and manipulate it in other tools.",
+  "main": "index.js",  
+  "scripts": {
+    "extract": "node ./index.js"
+  },
+  "keywords": ["geojson","gis","data extraction","command-line tool"],
+  "author": "Theodore Negusu, https://github.com/baydisng13",
+  "license": "ISC",
+  "dependencies": {}
+}
